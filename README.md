@@ -38,7 +38,6 @@ pip install -e .
 queuectl --version
 ```
 
-**Detailed installation instructions:** See [INSTALL.md](INSTALL.md)
 
 ## 🚀 Quick Start
 
@@ -54,15 +53,6 @@ queuectl status
 
 # 4. List completed jobs
 queuectl list --state completed
-```
-
-**Alternative (JSON mode):**
-```bash
-# Linux/Mac/Git Bash
-queuectl enqueue '{"id":"hello","command":"echo Hello"}'
-
-# Windows CMD
-queuectl enqueue "{\"id\":\"hello\",\"command\":\"echo Hello\"}"
 ```
 
 ## 💡 Two Ways to Add Jobs
@@ -88,17 +78,6 @@ For advanced use cases:
 queuectl enqueue --id job1 --command "echo Hello"
 
 ```
-
-## 📚 Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Commands](#commands)
-- [Architecture](#architecture)
-- [Configuration](#configuration)
-- [Testing](#testing)
-- [Examples](#examples)
-- [Demo Video](#demo-video)
 
 ## 🔧 Installation
 
@@ -153,18 +132,6 @@ queuectl --version
 
 queuectl --help
 ```
-
-**Alternative: Run without installation**
-
-```bash
-# Install dependencies only
-pip install -r requirements.txt
-
-# Run using Python module
-python -m queuectl.cli --help
-```
-
-For detailed troubleshooting, see [INSTALL.md](INSTALL.md)
 
 ## 📖 Usage
 
@@ -252,8 +219,6 @@ queuectl config set job-timeout 600
 queuectl config reset
 ```
 
-**Complete command reference:** See [COMMANDS.md](COMMANDS.md)
-
 ## 🏗️ Architecture
 
 ### System Components
@@ -300,40 +265,6 @@ PENDING → PROCESSING → COMPLETED
                   ↓
                 DEAD (DLQ)
 ```
-
-### Project Structure
-
-```
-queuectl/
-├── queuectl/
-│   ├── __init__.py           # Package initialization
-│   ├── cli.py                # CLI interface
-│   ├── models/
-│   │   ├── __init__.py
-│   │   └── job.py            # Job model and states
-│   ├── storage/
-│   │   ├── __init__.py
-│   │   └── database.py       # SQLite storage layer
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── queue_manager.py  # Queue operations
-│   │   └── worker.py         # Worker management
-│   └── utils/
-│       ├── __init__.py
-│       └── config.py         # Configuration management
-├── tests/
-│   ├── __init__.py
-│   └── test_queuectl.py      # Test suite
-├── scripts/
-│   └── demo.sh               # Demo script
-├── requirements.txt          # Python dependencies
-├── setup.py                  # Installation script
-├── README.md                 # This file
-├── INSTALL.md               # Installation guide
-├── COMMANDS.md              # Command reference
-└── .gitignore               # Git ignore rules
-```
-
 ## ⚙️ Configuration
 
 Configuration is stored in `queuectl_config.json`:
@@ -403,12 +334,6 @@ The demo video shows:
 - DLQ operations
 - Configuration management
 - Graceful shutdown
-
-**Recording instructions:**
-1. Record terminal session showing all features
-2. Upload to Google Drive
-3. Make shareable link
-4. Update this README with link
 
 ## 🎯 Design Decisions
 
