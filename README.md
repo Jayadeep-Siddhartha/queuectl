@@ -299,7 +299,7 @@ delay = backoff_base ^ attempts
 - Attempt 3: 2^3 = 8 seconds
 
 
-## Demo Video
+## 🎬 Demo Video
 
 ### Watch the full video for demo
 
@@ -314,9 +314,11 @@ delay = backoff_base ^ attempts
 
 🎬 **Click the image above** to watch the full demo video.
 
-<p align="center">
+<p align='center'> Or</p>
+
+<p>
   🎬 <strong><a href="https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing" target="_blank">
-  Click here to watch the full demo video</a></strong> \
+  Click here to watch the full demo video</a></strong> 
 </p>
 
 
