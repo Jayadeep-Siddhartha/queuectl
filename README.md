@@ -298,6 +298,29 @@ delay = backoff_base ^ attempts
 - Attempt 2: 2^2 = 4 seconds  
 - Attempt 3: 2^3 = 8 seconds
 
+
+## Demo Video
+
+### Watch the full video for demo
+
+[![QueueCTL Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing)
+
+🎬 **Click the image above** to watch the full demo video.
+
+The demo video covers:
+- Installation and setup  
+- Enqueuing and managing jobs  
+- Running multiple workers in parallel  
+- Monitoring queue and worker status  
+- Handling retries with exponential backoff  
+- Managing the Dead Letter Queue (DLQ)  
+- Updating configuration settings  
+- Graceful worker shutdown  
+
+---
+
+
+
 ## 🧪 Testing
 
 ### Run Test Script
@@ -320,26 +343,6 @@ The simple test script demonstrates:
 
 
 ```
-
----
-
-## 🎥 Demo Video
-
-[![QueueCTL Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing)
-
-🎬 **Click the image above** to watch the full demo video.
-
-The demo video covers:
-- Installation and setup  
-- Enqueuing and managing jobs  
-- Running multiple workers in parallel  
-- Monitoring queue and worker status  
-- Handling retries with exponential backoff  
-- Managing the Dead Letter Queue (DLQ)  
-- Updating configuration settings  
-- Graceful worker shutdown  
-
----
 
 
 
