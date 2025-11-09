@@ -303,7 +303,8 @@ delay = backoff_base ^ attempts
 
 ### Watch the full video for demo
 
-[![QueueCTL Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing)
+[![QueueCTL Demo Video](https://drive.google.com/thumbnail?id=1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr)](https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing)
+
 
 🎬 **Click the image above** to watch the full demo video.
 
@@ -317,7 +318,6 @@ The demo video covers:
 - Updating configuration settings  
 - Graceful worker shutdown  
 
----
 
 
 
