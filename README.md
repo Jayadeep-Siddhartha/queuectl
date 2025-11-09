@@ -323,7 +323,7 @@ The simple test script demonstrates:
 
 ## 🎥 Demo Video
 
-**[📹 Watch Demo Video](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+**[📹 Watch Demo Video]https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing**
 
 The demo video shows:
 - Installation and setup
