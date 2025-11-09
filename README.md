@@ -325,20 +325,22 @@ The simple test script demonstrates:
 
 ## 🎥 Demo Video
 
-🎬 **Watch the full demo here:**  
-👉 [**QueueCTL Demo Video**](https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing)
+[![QueueCTL Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing)
 
-The demo video includes:
-- Installation and environment setup  
+🎬 **Click the image above** to watch the full demo video.
+
+The demo video covers:
+- Installation and setup  
 - Enqueuing and managing jobs  
-- Starting multiple workers  
-- Monitoring system status  
+- Running multiple workers in parallel  
+- Monitoring queue and worker status  
 - Handling retries with exponential backoff  
-- Working with the Dead Letter Queue (DLQ)  
-- Updating configuration via CLI  
-- Graceful shutdown of workers  
+- Managing the Dead Letter Queue (DLQ)  
+- Updating configuration settings  
+- Graceful worker shutdown  
 
 ---
+
 
 
 ## 🎯 Design Decisions
