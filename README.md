@@ -55,6 +55,40 @@ queuectl status
 queuectl list --state completed
 ```
 
+## 🎬 Demo Video
+
+### Watch the full video for demo
+
+<a href="https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing" target="_blank">
+  <img src="https://drive.google.com/thumbnail?id=1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr" 
+       alt="QueueCTL Demo Video" 
+       width="600" 
+       style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+</a>
+
+
+
+🎬 **Click the image above** to watch the full demo video.
+
+<p align='center'> Or</p>
+
+<p>
+  🎬 <strong><a href="https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing" target="_blank">
+  Click here to watch the full demo video</a></strong> 
+</p>
+
+
+The demo video covers:
+- Installation and setup  
+- Enqueuing and managing jobs  
+- Running multiple workers in parallel  
+- Monitoring queue and worker status  
+- Handling retries with exponential backoff  
+- Managing the Dead Letter Queue (DLQ)  
+- Updating configuration settings  
+- Graceful worker shutdown  
+
+
 ## 💡 Two Ways to Add Jobs
 
 ### Method 1: Simple Mode (Recommended) ⭐
@@ -297,43 +331,6 @@ delay = backoff_base ^ attempts
 - Attempt 1: 2^1 = 2 seconds
 - Attempt 2: 2^2 = 4 seconds  
 - Attempt 3: 2^3 = 8 seconds
-
-
-## 🎬 Demo Video
-
-### Watch the full video for demo
-
-<a href="https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing" target="_blank">
-  <img src="https://drive.google.com/thumbnail?id=1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr" 
-       alt="QueueCTL Demo Video" 
-       width="600" 
-       style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
-</a>
-
-
-
-🎬 **Click the image above** to watch the full demo video.
-
-<p align='center'> Or</p>
-
-<p>
-  🎬 <strong><a href="https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing" target="_blank">
-  Click here to watch the full demo video</a></strong> 
-</p>
-
-
-The demo video covers:
-- Installation and setup  
-- Enqueuing and managing jobs  
-- Running multiple workers in parallel  
-- Monitoring queue and worker status  
-- Handling retries with exponential backoff  
-- Managing the Dead Letter Queue (DLQ)  
-- Updating configuration settings  
-- Graceful worker shutdown  
-
-
-
 
 ## 🧪 Testing
 
