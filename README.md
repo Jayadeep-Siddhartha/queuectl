@@ -303,14 +303,24 @@ delay = backoff_base ^ attempts
 
 ### Watch the full video for demo
 
+---
+
+## 🎥 Demo Video
+
 <a href="https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing" target="_blank">
   <img src="https://drive.google.com/thumbnail?id=1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr" 
        alt="QueueCTL Demo Video" 
-       width="800" 
+       width="600" 
        style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
 </a>
 
-<p><strong>🎬 Click the image above</strong> to watch the full demo video.</p>
+<p align="center">
+  🎬 <strong><a href="https://drive.google.com/file/d/1vmXMa2RVRkPT1DMT-fcAzufiNe0BNlGr/view?usp=sharing" target="_blank">
+  Click here to watch the full demo video</a></strong>  
+  <br><em>(If the thumbnail above doesn’t load)</em>
+</p>
+
+---
 
 
 🎬 **Click the image above** to watch the full demo video.
